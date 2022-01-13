@@ -3,7 +3,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'This is bad prod 35!!!\n'
+  const msg = 'This is bad staging 35!!!\n'
   res.end(msg);
 });
 
