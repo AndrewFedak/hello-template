@@ -3,7 +3,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'This is is super duper prod!!!\n'
+  const msg = 'This is super!!!\n'
   res.end(msg);
 });
 
