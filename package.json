@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "deploy_azure_staging": "git push az_staging staging:master",
+    "deploy_azure_prod": "git push az_prod master:master"
   },
   "repository": {
     "type": "git",
